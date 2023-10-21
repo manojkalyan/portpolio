@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manu</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/10f9d75d30.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <div id="header">
+
+        <div class="container">
+            <nav>
+                <h2 class="name-heading">Manoj..</h2>
+            <ul  id="sidemenu">
+
+
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Service</a></li>
+                <li><a href="#portpolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-circle-xmark"onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars"onclick="openmenu()"></i>
+            
+            </nav>
+            <div class="header-text">
+                <p id="animation-text"></p>
+                <h1>Hi, I'm <span>Manoj</span><br>from India</h1>
+            </div>
+        </div>
+    </div>
+    <!--  about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/passport image.jpg"class="animated-image" alt="">
+            </div>
+            <div class="about-col-2  animated-col">
+                
+                <h1 class="sub-title">About Me</h1>
+            <p class="animated-content">I am a creative developer from the state of Karnataka, and I am passionate about creating stunning websites and emails. My expertise lies in translating designs into fully functional websites and emails while utilizing my development skills to enhance and customize their features. My goal is to craft visually appealing, user-friendly websites/emails that provide a seamless browsing experience. In my leisure time, I enjoy watching movies and spending quality time with my family.
+            </p>
+            <div class="tab-titles">
+                <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>
+                <p class="tab-links"onclick="opentab('education')">Education</p>
+
+            </div>
+            <div class="tab-contents active-tab"id="skills">
+                <ul>
+                    <li>
+                        <span>
+                            FRONT-END<br>
+                        </span>
+                        <ul>
+                            <li>HTML,
+                            CSS,
+                            JAVASCRIPT</li>
+
+                        </ul>
+
+                        
+                        
+                 
+                    
+                        <span>
+                            BACK-END<br>
+                        </span>
+                        <ul>
+
+                          <li>JAVA,
+                           MONGODB,
+                          EXPRESS.JS,
+                          NODE.JS</li>
+                          
+                        </ul>
+                   
+                        <span>
+                            OTHERE<br>
+                        </span>
+                        <ul>
+                            <li>GIT/GITHUB,
+                            VISUAL STUDIO,
+                            POSTMAN,
+                           REST API
+                        </li>
+                    
+                </ul>
+            </div>
+            
+            <div class="tab-contents"id="education">
+                <ul>
+                    <li>
+                        <span>
+                         Sri Sairam College Of Engineering -Bengaluru<br>
+                        </span>
+                         B.E In Mechanical   &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;2018-2022              
+                    </li>
+                    <li>
+                        <span>
+                            Coding Ninjas<br>
+                        </span>
+                            Full Stack Development   &nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp; 2022-2023
+                        
+                    </li>
+                  
+                </ul>
+            </div>
+            </div>
+
+        </div>
+      </div>  
+    </div>
+
+    <!-- seveices -->
+
+<div id="services">
+
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div class="animated">
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design is the process of creating web pages. It encompasses several different aspects, including webpage layout, content production, and graphic design
+
+
+
+
+
+
+
+                </p>
+           <a href="https://www.interaction-design.org/literature/topics/web-design" target="_blank">Learn more</a>
+           
+            </div>
+            <div class="animated">
+                <i class="fa-solid fa-crop"></i>
+                <h2>Web Development</h2>
+                <p>
+
+                    Web development refers to the process of building and creating websites. It encompasses various aspects, including web design, web publishing, web programming, and database management.
+                </p>
+           <a href="https://www.geeksforgeeks.org/web-development/"target="_blank">Learn more</a>
+           
+            </div>
+            <div class="animated">
+                <i class="fa-brands fa-app-store"></i>
+                <h2>Rest Api's</h2>
+                <p>REST APIs, which stands for Representational State Transfer Application Programming Interfaces, are a set of constraints and principles for designing and interacting with web services. REST is an architectural style that is commonly used in web development for creating scalable and efficient networked applications. Here are some key characteristics and principles of REST APIs</p>
+           <a href="https://www.redhat.com/en/topics/api/what-is-a-rest-api"target="_blank">Learn more</a>
+           
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- porpolio -->
+
+<div id="portpolio">
+
+    <div class="container">
+        
+            <h1 class="sub-title">My Work</h1>
+
+        
+        <div class="work-list  ">
+            <div class="work hover-effect animated-bubble">
+               
+         <img src="images/HD-wallpaper-fullstack-development-nodejs-programmer-technology.jpg" alt="">
+          <div class="layer">
+         <h3>Placement Cell Management System</h3>
+           <p>This is a web application for managing placement-related activities for a college or institution. It follows the MVC (Model-View-Controller) architecture, allowing administrators, employees, and students to manage company information, student profiles, interviews, and job listings.</p>
+           <a href="https://github.com/manojkalyan/PlacementCell"target="_blank"><i 
+            class="fa-solid fa-link"></i></a>
+        </div>
+        </div>
+            <div class="work hover-effect animated-bubble">
+                <img src="images/angular-aside-login (1) (1).jpg" alt="">
+                <div class="layer">
+                    <h3>Passport Authentication</h3>
+                      <p>his is a user authentication system implemented using Node.js, Express, Passport, and MongoDB. The system allows users to sign up, sign in using social authentication (Google), reset their passwords with an email expiration link, and update their profiles.</p>
+                      <a href="https://github.com/manojkalyan/passportAuthenticatinNode"target="_blank"><i class="fa-solid fa-link"></i></a>
+                   </div>
+            </div>
+            <div class="work hover-effect animated-bubble">
+                <img src="images/untitled_2.png" alt="">
+                <div class="layer">
+                    <h3>IMDB Clone</h3>
+                      <p>A simple IMDb clone that allows users to search for movies, view movie details, and manage a list of favorite movies.
+
+                      </p>
+                      <a href="https://github.com/manojkalyan/IMDB-CLONE"target="_blank"><i class="fa-solid fa-link"></i></a>
+                   </div>
+            </div>
+          
+        </div>
+        <a href="https://github.com/manojkalyan"target="_blank"class="btn">See more</a>
+    </div>
+</div>
+
+<!--  contact-->
+<div id="contact">
+
+    <div class="container">
+        <div class="row">
+     <div class="contact-left">
+        <h1 class="sub-title">Contact Me</h1>
+        <p><i class="fa-regular fa-envelope"></i>manoj2001kalyan@gmail.com</p>
+        <p><i class="fa-solid fa-phone-volume"></i>8971890913</p>
+        <div class="social-icons">
+            <a href="https://github.com/manojkalyan"target="_blank""><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://github.com/manojkalyan"target="_blank""><i class="fa-brands fa-instagram"></i></i></a>
+            <a href="https://github.com/manojkalyan"target="_blank""><i class="fa-brands fa-github"></i></i></a>
+
+        </div>
+        <a href="images/manojkalyan formated resume (3).pdf" download class="btn  btn2">Download CV</a>
+     </div>
+     <div class="contact-right">
+     <form name="submit-to-google-sheet">
+    <input type="text"name="Name"placeholder="Your Name" required>
+    <input type="email"name="Email"placeholder="Your Email"required>
+    <textarea name="Message"  rows="10"placeholder="Your Message"></textarea>
+   <button type="submit"class="btn btn2">Submit</button>
+</form>
+<span id="msg"></span>
+</div>
+</div>
+</div>
+<div class="copyright">
+    <p>Copyright<i class="fa-solid fa-copyright"> </i>Manoj.Made With <i class="fa-solid fa-heart"></i>By Manu </p>
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        
+        var tablinks=document.getElementsByClassName("tab-links")
+        
+        var tabcontents=document.getElementsByClassName("tab-contents")
+    
+    
+     function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        
+        
+        }
+
+        event.currentTarget.classList.add("active-link")
+        document.getElementById(tabname).classList.add("active-tab") 
+    
+    
+    }
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </script>
+
+    <script>
+        var sidemenu= document.getElementById('sidemenu')
+        function openmenu(){
+            sidemenu.style.right="0";
+        }
+        function closemenu(){
+            sidemenu.style.right= "-200px";
+        }
+    </script>
+  
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzeUODxLHGOnqXsGz8tS8T2xqDitkf1In0NtdsfxYeQsdmzcrVT2UcAC59aDoAu4RVf/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg1 = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML="Message sent successfully";
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+
+        })
+
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+  <script>
+const animationText = document.getElementById('animation-text');
+const text = "Full Stack Developer";
+
+animationText.setAttribute('data-text', text); // Set the data-text attribute
+
+
+
+  </script>
+
+  <script>
+   // Function to handle the animation when the "about" section is in view
+function animateImageOnScroll() {
+    const animatedImage = document.querySelector('.animated-image');
+    const rect = animatedImage.getBoundingClientRect();
+    
+    if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+        animatedImage.style.transform = 'translateX(0)';
+    } else {
+        animatedImage.style.transform = 'translateX(-100%)';
+    }
+}
+
+// Add an event listener to trigger the animation on scroll
+window.addEventListener('scroll', animateImageOnScroll);
+
+// Initially, trigger the animation check once to see if the image is already in view
+animateImageOnScroll();
+
+
+  </script>
+
+
+
+
+<script>
+    // Function to handle animations for "about-col-2" and content elements
+    function animateAboutCol2OnScroll() {
+    const aboutCol2 = document.querySelector('.animated-col');
+    const animatedContent = document.querySelectorAll('.animated-content');
+
+    const rect = aboutCol2.getBoundingClientRect();
+
+    if (rect.top <= window.innerHeight && rect.left <= window.innerWidth) {
+        if (!aboutCol2.classList.contains('animated')) {
+            aboutCol2.classList.add('animated');
+            animatedContent.forEach((element) => {
+                element.classList.add('animated');
+            });
+        }
+    } else {
+        aboutCol2.classList.remove('animated');
+        animatedContent.forEach((element) => {
+            element.classList.remove('animated');
+        });
+    }
+}
+
+window.addEventListener('scroll', animateAboutCol2OnScroll);
+animateAboutCol2OnScroll();
+
+
+
+</script>
+<script>
+    // Function to handle the staggered animations
+function animateServicesOnScroll() {
+  const animatedServices = document.querySelectorAll('.animated');
+
+  animatedServices.forEach((element, index) => {
+    const rect = element.getBoundingClientRect();
+    if (rect.top <= window.innerHeight && rect.bottom >= 0) {
+      if (!element.classList.contains('started')) {
+        element.style.animationDelay = `${index * 0.5}s`; // Adjust this delay as needed
+        element.classList.add('started');
+      }
+    }
+  });
+}
+
+window.addEventListener('scroll', animateServicesOnScroll);
+animateServicesOnScroll();
+
+</script>
+
+<script>
+    function checkScroll() {
+  const portfolioSection = document.getElementById('portpolio');
+  const portfolioRect = portfolioSection.getBoundingClientRect();
+
+  if (portfolioRect.top < window.innerHeight) {
+    // Portfolio section is in view, add a class to start the animation
+    const workItems = document.querySelectorAll('.animated-bubble');
+    workItems.forEach((item, index) => {
+      setTimeout(() => {
+        item.classList.add('show-bubble-animation');
+      }, index * 500); // Adjust the delay between items
+    });
+    // Remove the scroll event listener to prevent continuous triggering
+    window.removeEventListener('scroll', checkScroll);
+  }
+}
+
+window.addEventListener('scroll', checkScroll);
+
+</script>
+</body>
+</html>
+
+
+
+
+
+
+
+
